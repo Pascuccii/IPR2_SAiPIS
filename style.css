@@ -1,0 +1,74 @@
+.form {
+    margin-left: 150px;
+}
+
+.block {
+    float: left; /*Задаем обтекание*/
+    line-height: 120px; /*Высота строки +  верт. центрирования текста*/
+    font-size: 40px;
+    background-color: #388f28;
+    color: white;
+    width: 50%; /*Фиксируем ширину блока*/
+    text-align: left; /*Центрируем текст по горизонтали*/
+}
+
+.rightList {
+    align-content: center;
+    float: left; /*Задаем обтекание*/
+    width: 50%;
+    height: 550px;
+}
+
+.rightList img {
+    width: 100%;
+}
+
+.underList {
+    float: left; /*Задаем обтекание*/
+    width: 100%;
+    height: 550px;
+}
+
+.underList img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 60px;
+    -webkit-text-fill-color: white;
+}
+
+h1:hover, li:hover {
+    -webkit-text-fill-color: #b6ff00;
+    text-shadow: 3px 3px 3px green;
+    cursor: pointer;
+}
+
+h1:active, li:active {
+    -webkit-text-fill-color: #12ff00;
+    text-shadow: 1px 1px 2px #b6ff00;
+    cursor: pointer;
+}
+
+li {
+    height: 50px;
+    display: block;
+    margin-top: 30px;
+    list-style: none;
+    font-size: 36px;
+}
+
+button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+* {
+    font-family: "Brush Script MT", fantasy;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(20deg, #408011, #16f576) fixed;
+}

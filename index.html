@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+    <title>Памятники архитектуры</title>
+</head>
+<body>
+<h1 align="center" onclick="clearAll()">Величайшие памятники архитектуры всего мира</h1>
+<div class="block">
+    <ul>
+        <li onclick="selectImage('antique-theater-france.jpg')">Античный театр d'Orange, Франция</li>
+        <li onclick="selectImage('big-theater.jpg')">Большой театр, Москва</li>
+        <li onclick="selectImage('cathedral-christ-moscow.jpg')"> Храм Христа Спасителя, Москва</li>
+        <li onclick="selectImage('gov-museum-moscow.jpg')"> Гос. Исторический музей, Москва</li>
+        <li onclick="selectImage('st-marks-cathedral-italy.jpg')">Собор Святого Марка, Италия</li>
+        <li onclick="selectImage('sun-temple-india.jpg')"> Храм Солнца, Индия</li>
+        <li onclick="selectImage('blue-mosque-istanbul.jpg')">Голубая Мечеть, Стамбул</li>
+    </ul>
+    <div class="form">
+        <button onclick="printSelectedImageUnderList()">Вывести снизу</button>
+        <button onclick="showAllImages()">Все картинки</button>
+    </div>
+</div>
+<div class="rightList">
+    <img id="currentImage" src="antique-theater-france.jpg">
+    <img src="">
+    <img src="">
+    <img src="">
+    <img src="">
+    <img src="">
+    <img src="">
+</div>
+<div class="underList">
+    <img src="">
+</div>
+</body>
+</html>
